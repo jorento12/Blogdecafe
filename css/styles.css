@@ -10,3 +10,43 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+body{
+    font-family: var(--fuenteParrafos);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.contenedor{
+    max-width: 120rem ;
+    width: 90%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4{
+    font-family: var(--fuenteEncabezados);
+}
+h1{
+    font-size: 4.8rem;
+}
+    
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3.2rem;
+}
+h4{
+    font-size: 2.8rem;
+}
+/*estilos utilitarios- helpers*/
+.no-margin{
+    margin: 0;
+}
+.no_padding{
+    padding: 0;
+}
+.centrar-texto{
+    text-align: center;
+}
