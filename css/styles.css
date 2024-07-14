@@ -1,0 +1,12 @@
+:root{
+    --fuenteEncabezados: "PT Sans", sans-serif;
+    --fuenteParrafos: "Open Sans", sans-serif;
+    --primario: #784d3c;
+
+}
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
