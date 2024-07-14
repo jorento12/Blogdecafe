@@ -50,3 +50,11 @@ h4{
 .centrar-texto{
     text-align: center;
 }
+.header{
+    background-image:url('/img/banner.jpg');
+    height:600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
